@@ -28,7 +28,7 @@
   </object>
  </objectgroup>
  <objectgroup color="#aa00ff" id="5" name="markers">
-  <object id="14" name="spawn" x="320" y="400">
+  <object id="14" name="spawn" x="320" y="440">
    <point/>
   </object>
  </objectgroup>

@@ -417,23 +417,6 @@ return {
       properties = {},
       objects = {
         {
-          id = 19,
-          name = "npc",
-          type = "",
-          shape = "rectangle",
-          x = 480,
-          y = 840,
-          width = 40,
-          height = 40,
-          rotation = 0,
-          visible = true,
-          properties = {
-            ["actor"] = "starwalker",
-            ["text1"] = "* These [color:yellow]stairs[color:reset] are [color:yellow]Pissing[color:reset] me\noff...",
-            ["text2"] = "* I'm the original   [color:yellow]Starwalker[color:reset]"
-          }
-        },
-        {
           id = 27,
           name = "savepoint",
           type = "",
@@ -450,19 +433,6 @@ return {
           }
         },
         {
-          id = 28,
-          name = "squeak",
-          type = "",
-          shape = "rectangle",
-          x = 680,
-          y = 600,
-          width = 40,
-          height = 40,
-          rotation = 0,
-          visible = true,
-          properties = {}
-        },
-        {
           id = 29,
           name = "transition",
           type = "",
@@ -474,41 +444,8 @@ return {
           rotation = 0,
           visible = true,
           properties = {
-            ["map"] = "room2",
-            ["marker"] = "entry"
-          }
-        },
-        {
-          id = 33,
-          name = "interactable",
-          type = "",
-          shape = "rectangle",
-          x = 280,
-          y = 80,
-          width = 40,
-          height = 40,
-          rotation = 0,
-          visible = true,
-          properties = {
-            ["cutscene"] = "room1.wall",
-            ["once"] = true
-          }
-        },
-        {
-          id = 35,
-          name = "npc",
-          type = "",
-          shape = "point",
-          x = 300,
-          y = 160,
-          width = 0,
-          height = 0,
-          rotation = 0,
-          visible = true,
-          properties = {
-            ["actor"] = "wall",
-            ["flagcheck"] = "wall_hit",
-            ["text1"] = "* I Am the Wall Guardian.[wait:5]\n* This Wall is Off Limits for you\nno-good wall slammers."
+            ["map"] = "casino/xbox_fakeout",
+            ["marker"] = "spawn"
           }
         },
         {
